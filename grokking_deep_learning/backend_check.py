@@ -20,3 +20,9 @@ print("Device (CPU):", x.device)
 if torch.backends.mps.is_available():
     x_mps = x.to("mps")
     print("Device (MPS):", x_mps.device)
+
+
+
+
+x = torch.arange(12, dtype=torch.float32)
+print(x)

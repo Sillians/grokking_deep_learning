@@ -250,22 +250,26 @@ unsupervised learning and is widely used in **representation learning**, especia
 
 ### 3. **Interacting with an Environment**
 
+Unlike supervised and unsupervised learning, which rely on static, pre-collected datasets and operate 
+in **offline** settings—**interacting with an environment** introduces a dynamic element where a 
+learning agent **takes actions** that can **change future observations**. 
+Offline learning simplifies modeling by separating learning from environmental feedback, 
+but it's limited when aiming to build **intelligent agents** that act and adapt.
 
 
+![Collecting data for supervised learning from an environment.](assests/interating-with-environment.png)
 
-![My Image](assests/interating-with-environment.png)
-
-
-
+`fig: Collecting data for supervised learning from an environment.`
 
 
+This interactive setup raises new challenges, such as:
 
+* Whether the environment has **memory** of past actions,
+* Whether it's **collaborative** (e.g., helpful users) or **adversarial** (e.g., spammers),
+* Whether its behavior **changes over time**, leading to **distribution shift**—a mismatch between training and testing conditions.
 
-
-
-
-
-
+These complexities are central to **reinforcement learning**, where agents must learn by 
+**actively engaging with** and **adapting to** a changing environment.
 
 
 
@@ -277,32 +281,70 @@ unsupervised learning and is widely used in **representation learning**, especia
 
 ### 4. **Reinforcement Learning**
 
+If you are interested in using machine learning to develop an agent that interacts with an environment 
+and takes actions, then you are probably going to wind up focusing on reinforcement learning. 
+This might include applications to robotics, to dialogue systems, and even to developing 
+artificial intelligence (AI) for video games. 
+
+
+Reinforcement learning gives a very general statement of a problem in which an agent interacts 
+with an environment over a series of time steps. At each time step, the agent receives some 
+observation from the environment and must choose an action that is subsequently transmitted 
+back to the environment via some mechanism (sometimes called an `actuator`), when, after each loop, 
+the agent receives a reward from the environment. 
+
+
+The behavior of a reinforcement learning agent is governed by a `policy`. In brief, 
+a `policy` is just a function that maps from observations of the environment to actions. 
+The goal of reinforcement learning is to produce good `policies`.
+
+
+
+![Reinforcement-learning](assests/reinforcement-learning.png)
+
+`fig: The interaction between reinforcement learning and an environment.`
+
+
+
+Reinforcement learners may also have to deal with the problem of partial observability. 
+That is, the current observation might not tell you everything about your current state. 
+Say your cleaning robot found itself trapped in one of many identical closets in your house. 
+Rescuing the robot involves inferring its precise location which might require considering 
+earlier observations prior to it entering the closet.
+
+
+Finally, at any given point, reinforcement learners might know of one good policy, 
+but there might be many other better policies that the agent has never tried. 
+The reinforcement learner must constantly choose whether to `exploit` the best (`currently`) 
+known strategy as a policy, or to explore the space of strategies, potentially giving up 
+some short-term reward in exchange for knowledge.
 
 
 
 
 
 
+### The Essence of Deep Learning
+
+Deep learning is the subset of machine learning concerned with models based on many-layered neural networks.
+It is `deep` in precisely the sense that its models learn many `layers` of transformations.
+
+
+One key advantage of deep learning is that it replaces not only the shallow models at the end of 
+traditional learning pipelines, but also the labor-intensive process of feature engineering. 
+Moreover, by replacing much of the domain-specific preprocessing, deep learning has eliminated 
+many of the boundaries that previously separated computer vision, speech recognition, 
+natural language processing, medical informatics, and other application areas, thereby 
+offering a unified set of tools for tackling diverse problems.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Machine learning enables computer systems to improve at tasks using experience, often through data, 
+combining ideas from statistics, data mining, and optimization. **Representation learning**, 
+especially **deep learning**, automates data representation through multi-layer transformations, 
+replacing traditional models and manual feature engineering. Recent advances in deep learning 
+are driven by abundant data, powerful computation (e.g., GPUs), and accessible frameworks 
+that simplify system optimization and boost performance.
 
 
 
