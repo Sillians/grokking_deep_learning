@@ -30,7 +30,7 @@ unknown label** (output) based on **known input features**, using a dataset that
 inputs to outputs by generalizing from this labeled data to make accurate predictions on unseen instances.
 
 
-![My Image](assests/supervised-learning.png)
+![My Image](assests/Supervised-learning.png)
 
 
 
