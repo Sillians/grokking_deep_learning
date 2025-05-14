@@ -19,7 +19,7 @@ used to represent and manipulate data in numerical computations.
 ### **Key Properties:**
 
 * **Rank**: Number of dimensions (axes).
-* **Shape**: Size along each dimension (e.g., $(3, 2, 4)$).
+* **Shape**: Size along each dimension (e.g., $`(3, 2, 4)`$).
 * **Data type**: Type of values (e.g., `float32`, `int64`).
 
 
