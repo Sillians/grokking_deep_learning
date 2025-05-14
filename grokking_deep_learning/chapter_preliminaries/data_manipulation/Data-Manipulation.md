@@ -36,7 +36,10 @@ used for storing:
 They enable efficient computation on CPUs and GPUs.
 
 
-
+The tensor class is the main interface for storing and manipulating data in deep learning
+libraries. Tensors provide a variety of functionalities including construction routines; indexing and 
+slicing; basic mathematics operations; broadcasting; memory-eﬃcient assignment; and
+conversion to and from other Python objects.
 
 ---
 
