@@ -9,9 +9,9 @@ used to represent and manipulate data in numerical computations.
 
 | Dimension | Name   | Example                                            |
 | --------- | ------ | -------------------------------------------------- |
-| 0D        | Scalar | $x = 7$                                            |
-| 1D        | Vector | $x = [1, 2, 3]$                                    |
-| 2D        | Matrix | $x = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ |
+| 0D        | Scalar | $`x = 7`$                                            |
+| 1D        | Vector | $`x = [1, 2, 3]`$                                    |
+| 2D        | Matrix | $`x = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}`$ |
 | 3D+       | Tensor | Stack of matrices (e.g., image batches)            |
 
 
