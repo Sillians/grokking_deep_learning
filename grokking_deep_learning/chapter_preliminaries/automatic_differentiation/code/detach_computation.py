@@ -20,3 +20,4 @@ print(x.grad == u)
 x.grad.zero_()
 y.sum().backward()
 print(x.grad == 2 * x)
+
