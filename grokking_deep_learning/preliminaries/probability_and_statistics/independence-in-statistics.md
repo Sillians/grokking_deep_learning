@@ -2,6 +2,8 @@
 
 **Independence** describes a fundamental relationship between two events or random variables: the occurrence or value of one gives **no information** about the other.
 
+In short, two variables are independent if conditioning on the value of `A` does not cause any change to the probability distribution associated with `B` and vice versa.
+
 ---
 
 ### **1. Independence of Events**
