@@ -138,10 +138,7 @@ $$
 
 Used in practice when direct computation is intractable:
 
-$$
-\mathbb{E}_{x \sim p}[f(x)] \approx \frac{1}{n} \sum_{i=1}^n f(x_i)
-\quad \text{with } x_i \sim p(x)
-$$
+$`\mathbb{E}_{x \sim p}[f(x)] \approx \frac{1}{n} \sum_{i=1}^n f(x_i) \quad \text{with } x_i \sim p(x)`$
 
 Used in:
 

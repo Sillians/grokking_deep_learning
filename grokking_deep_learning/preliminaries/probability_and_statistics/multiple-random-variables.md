@@ -78,6 +78,8 @@ $$
 
 This implies knowing one variable gives **no information** about the other.
 
+Independence is another fundamentally important concept that forms the backbone of many important ideas in statistics. In short, two variables are independent if conditioning on the value of `A` does not cause any change to the probability distribution associated with `B` and vice versa.
+ 
 ---
 
 ### **5. Correlation and Dependence**
