@@ -177,3 +177,8 @@ cython_debug/
 .DS_Store
 
 .idea/
+
+
+.vscode
+.vscode/*
+.vscode/
